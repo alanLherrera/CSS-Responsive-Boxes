@@ -1,3 +1,35 @@
 body {
-  background: blanchedalmond;
+  background: rgb(249, 246, 243);
+}
+div{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: xx-large;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.a{
+  width: 900px;
+  height: 100px;
+
+}
+.b{
+  height: 200px;
+  width: 700px
+}
+.c{
+  width: 250px;
+}
+
+@media (max-width: 500px){
+  .container{
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+  }
+
+
 }
